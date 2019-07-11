@@ -57,7 +57,7 @@ app.get('/api/v1/recipes', function (req, res) {
                 recipes: recipes(jsonBody)
               }
             }
-            res.send(jsonBody)
+            res.send( JSON.parse(jsonBody) );
         }
     })
 })
