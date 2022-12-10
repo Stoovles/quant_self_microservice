@@ -49,7 +49,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "core-js": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "knex": "^0.18.3",
     "objection": "^1.6.9",
     "pg": "^7.11.0",
